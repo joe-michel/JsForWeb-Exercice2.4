@@ -28025,7 +28025,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/home/joe/JsForWeb1/Exercice2.4/_shared/img/becode-seal.png":[["becode-seal.97b37325.png","_shared/img/becode-seal.png"],"_shared/img/becode-seal.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/axios/lib/helpers/bind.js":[function(require,module,exports) {
+},{"/home/joe/JsForWeb/JsForWeb-Exercice2.4/_shared/img/becode-seal.png":[["becode-seal.97b37325.png","_shared/img/becode-seal.png"],"_shared/img/becode-seal.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../node_modules/axios/lib/helpers/bind.js":[function(require,module,exports) {
 'use strict';
 
 module.exports = function bind(fn, thisArg) {
@@ -29823,7 +29823,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34883" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38185" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
